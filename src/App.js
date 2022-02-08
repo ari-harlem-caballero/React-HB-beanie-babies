@@ -13,14 +13,6 @@ export default function App() {
   return (
     <Router>
       <div className='App'>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="beanie-baby">Find</Link>
-          </li>
-        </ul>
         <Switch>
           <Route exact path="/">
             {/* this home page route should list all the beanies */}
