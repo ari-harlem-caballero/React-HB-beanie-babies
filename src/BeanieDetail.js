@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom/cjs/react-router-dom.min';
 import { getSingleBeanie } from './services/fetch-utils';
 
@@ -26,6 +26,7 @@ export default function BeanieDetail() {
 
   return (
     <div>
+      <Link to="/">Home</Link>
       <h1>{params.id}</h1>
       <p>{beanieBaby}</p>
     </div>
