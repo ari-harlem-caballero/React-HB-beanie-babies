@@ -4,7 +4,7 @@ export default function BeanieBaby({ beanieBaby }) {
   return (
     // this should contain a react-router-dom Link to the detail page for this particular beanie baby.
     // it should also render the beanie baby's image and show the beanie baby's name
-    <Link key={beanieBaby.title} to={`/beanie-baby/${beanieBaby.id}`}>
+    <Link to={`/beanie-baby/${beanieBaby.id}`}>
       <div className='beanie-baby'>
         {beanieBaby.title}
         <img className='beanie-img' src={beanieBaby.image}/>
