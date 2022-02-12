@@ -3,11 +3,11 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from 'react-router-dom';
 import BeaniesPage from './BeaniesPage';
 import BeanieDetail from './BeanieDetail';
 
+// still tryna understand what class components are, looking at all the articles people have shared
 
 export default function App() {
   return (
